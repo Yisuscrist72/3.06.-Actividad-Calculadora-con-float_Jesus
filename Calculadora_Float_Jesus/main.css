@@ -1,0 +1,44 @@
+body{
+    text-align: center; /*Centrar texto del body al centro*/
+    background-color: white; /*Cambiar el color de fondo a blanco*/
+}
+
+#calculadora{
+    margin: auto ; /*Centrar la calculadora horizontalmente*/
+    border: 3px solid black; /*Marcamos el borde exterior de la calculadora*/
+    width: 400px; /* Define un ancho fijo para la calculadora */
+    height: 520px;
+    background-color: #d2d2d2;/*Color de fondo de la calculadora*/
+    padding: 10px;
+}
+
+#pantalla{
+    background-color:#f0ffff; /*Color de fondo de la pantalla*/
+    height: 50px; /*Altura de la pantalla*/
+    padding: 4px; /*Agrega espacio interno para el texto*/
+    border: 1px solid black; /*Borde de la pantalla*/
+    color: black; /*Color de letra que tendra en la pantalla*/
+    text-align: right;/*Ponemos que el texto aparezca a la derecha*/
+    font-size: 25px; /*Tamaño de letra*/
+    margin-bottom: 10px; /*Margen de abajo solo para separar el teclado de la pantalla*/
+}
+
+#teclado div{
+    padding: 5px; /*Intentar centrar el teclado*/
+}
+
+#teclado div div {
+    float: left; /* Coloca los elementos dentro de este contenedor uno al lado del otro en lugar de en columnas */
+    padding: 40px; /* Añade un espacio de 40px*/
+    border: 1px solid black; /* Aplica un borde negro de 1px alrededor de cada elemento */
+    margin: 1px; /* Añade un espacio de 1px alrededor de cada elemento, separándolos */
+    width: 13px; /* Define el ancho de cada elemento como 13px */
+    font-size: 25px; /* Establece el tamaño de la fuente en 25px */
+    font-weight: bolder; /* Hace el texto más grueso (bold) */
+    background-color: #d2d2d2; /* Cambia el color de fondo a un gris claro (#d2d2d2) */
+    cursor: pointer; /* Cambia el cursor a un puntero al pasar el ratón por encima, indicando interactividad */
+}
+
+
+
+
